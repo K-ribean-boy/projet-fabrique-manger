@@ -1,0 +1,56 @@
+header{
+    background: url(/var/www/html/Cuisine/Image/image.jpeg); 
+    height:200px;
+}
+#menu{
+    margin-left: 100px;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+#menu li{
+    float: left;
+    margin: auto;
+    padding: 15px;
+    background:linear-gradient(90deg;rgba(255,255,255,0) 0%,rgba(255,255,255,0.2)25%,rgba(255,255,255,0.2)75%,rgba(255,255,255,0)100%) ;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1),inset 0 0 1 rgba(255,255,255,0.6);
+    text-decoration: none;
+}
+#menu li a{
+    display: block;
+    width: 100px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    }
+ #menu li a:hover{
+     color: aquamarine;
+ } 
+ #menu ul li ul{
+     display: none
+ }
+ #menu ul li:hover ul{
+     display: block;
+ }
+ #menu  li: :hover ul li{
+     float: none;
+ }
+ #menu li ul{
+     position: absolute;
+ }
+ #menu{
+     height: 50px;
+ }
+ #menu a{
+     text-decoration: none;
+     color: black
+ }
+ #menu ul li a::after{
+     filter:alpha(opacity=10);
+ }
+ #icon{
+     height:50px;
+ }
